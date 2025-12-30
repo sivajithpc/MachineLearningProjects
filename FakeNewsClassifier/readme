@@ -1,0 +1,31 @@
+# 📰 Fake News Classifier
+
+A machine learning project to classify news articles as **real** or **fake**.  
+This project uses Natural Language Processing (NLP) techniques and supervised learning models.
+
+---
+
+## ✨ Features
+- Preprocessing of text data (tokenization, stopword removal, vectorization).
+- Multiple machine learning models for classification.
+- Evaluation using accuracy, precision, recall, and F1-score.
+- Jupyter Notebook included for step-by-step explanation.
+
+---
+
+## 🧠 Models Used
+- **Logistic Regression** → A simple yet effective linear model that works well for binary classification tasks like detecting fake vs. real news.  
+- **Naive Bayes** → A probabilistic model based on Bayes’ theorem. It is very efficient for text classification problems because it assumes feature independence.  
+- **Random Forest** → An ensemble method that builds multiple decision trees and combines their predictions for better accuracy and robustness.  
+- **XGBoost** → A powerful gradient boosting algorithm that is optimized for speed and performance. It often achieves high accuracy in classification tasks.
+
+---
+
+## 📊 Dataset
+This project uses the **Fake News Classification dataset** available on Kaggle:  
+[Fake News Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification/data)
+
+⚠️ **Note:** The dataset is not included in this repository due to size limitations.  
+Please download it from Kaggle and place it inside a folder named `data/` in the project root.
+
+---
